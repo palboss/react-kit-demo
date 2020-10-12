@@ -3,7 +3,7 @@ react some little kits demo
 ### react hook demo1 storeContext
 - Usecontext and usereducer implement global store and simulate store and reducer of redux
 - [hooks API reference](https://reactjs.org/docs/hooks-reference.html) Examples  
-### react hook demo2 slicereducer
+### react hook demo2 sliceReducer
 - Usecontext, usereducer, slicing reducer
 - Separating data handling by domain
 - Combining reducers by slice
