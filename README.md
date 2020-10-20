@@ -11,5 +11,12 @@ react some little kits demo
 ### Key points:
 - The state returned by reducer is a JSON object
 - The slicing and combination are around the attributes of the JSON object
-
-    
+### demo3 react-vertical-timeline
+- react-vertical-timeline-component - Vertical timeline for React.js
+- [react-vertical-timeline](https://github.com/stephane-monnot/react-vertical-timeline)
+### demo4 react-event-timeline
+- React component to generate a responsive vertical event timeline
+- [react-event-timeline](https://github.com/rcdexta/react-event-timeline)
+### demo5 Ant Design Timeline
+- Ant Design Vertical display timeline.
+- [Timeline](https://ant.design/components/timeline/)

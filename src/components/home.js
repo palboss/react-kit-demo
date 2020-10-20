@@ -12,8 +12,6 @@ import {
 } from '@ant-design/icons';
 import './css/home.css'
 
-import Demo1 from "./storeContext";
-import Demo2 from "./sliceReducer";
 import Demo3 from "./vtimeline";
 import Demo4 from "./vtevent";
 import Demo5 from "./adtimeline";
@@ -24,7 +22,7 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            comp: Demo3,
+            comp: Demo5,
         }
         this.handleclick = this.handleclick.bind(this)
     }
@@ -78,7 +76,7 @@ class Home extends Component {
                   </Menu>
                 </Sider>
                 <Layout style={{ marginLeft: 200 }}>
-                  <Content style={{ padding: 24, textAlign: 'center' }}>
+                  <Content style={{ padding: 24, textAlign: 'center'}}>
                     <this.state.comp />
                   </Content>
                 </Layout>
