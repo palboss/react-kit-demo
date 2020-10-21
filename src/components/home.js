@@ -15,6 +15,7 @@ import './css/home.css'
 import Demo3 from "./vtimeline";
 import Demo4 from "./vtevent";
 import Demo5 from "./adtimeline";
+import Demo6 from "./d3c";
 
 const {Content, Sider } = Layout;
 
@@ -22,7 +23,7 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            comp: Demo5,
+            comp: Demo6,
         }
         this.handleclick = this.handleclick.bind(this)
     }
@@ -39,6 +40,11 @@ class Home extends Component {
             case "5":
                 comp = Demo5;
                 break
+            case "6":
+                comp = Demo6;
+                break
+            default:
+                comp = Demo5;
         }
         this.setState({comp: comp})
   }
