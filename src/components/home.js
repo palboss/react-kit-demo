@@ -16,6 +16,8 @@ import Demo3 from "./vtimeline";
 import Demo4 from "./vtevent";
 import Demo5 from "./adtimeline";
 import Demo6 from "./d3c";
+import Demo7 from "./ht";
+import Demo8 from "./ht2";
 
 const {Content, Sider } = Layout;
 
@@ -23,13 +25,13 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            comp: Demo6,
+            comp: Demo8,
         }
         this.handleclick = this.handleclick.bind(this)
     }
 
   handleclick = (key) => {
-        let comp = Demo3
+        let comp = Demo8
         switch (key) {
             case "3":
                 comp = Demo3;
@@ -43,8 +45,14 @@ class Home extends Component {
             case "6":
                 comp = Demo6;
                 break
+            case "7":
+                comp = Demo7;
+                break
+            case "8":
+                comp = Demo8;
+                break
             default:
-                comp = Demo5;
+                comp = Demo8;
         }
         this.setState({comp: comp})
   }
@@ -78,6 +86,9 @@ class Home extends Component {
                     </Menu.Item>
                     <Menu.Item key="8" icon={<ShopOutlined />}>
                       Demo 8
+                    </Menu.Item>
+                    <Menu.Item key="9" icon={<AppstoreOutlined />}>
+                      Demo 9
                     </Menu.Item>
                   </Menu>
                 </Sider>

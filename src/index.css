@@ -1,4 +1,6 @@
 @import '~antd/dist/antd.css';
+@import '~handsontable/dist/handsontable.full.css';
+
 body {
   margin: 0;
   padding: 0;

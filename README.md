@@ -23,3 +23,9 @@ react some little kits demo
 ### demo6 D3 react
 - D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML.
 - [D3](https://github.com/d3/d3)
+### demo7 Handsontable
+- Handsontable is a JavaScript/HTML5 data grid component with spreadsheet look & feel.It provides easy data binding, data validation, filtering, sorting and CRUD operations.
+- [Handsontable](https://github.com/handsontable/handsontable)
+### demo8 Handsontable
+- Handsontable is a JavaScript/HTML5 data grid component with spreadsheet look & feel.It provides easy data binding, data validation, filtering, sorting and CRUD operations.
+- [Handsontable](https://github.com/handsontable/handsontable)

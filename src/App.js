@@ -2,6 +2,7 @@ import React from 'react';
 import Home from "./components/home";
 import Demo1 from "./components/storeContext";
 import Demo2 from "./components/sliceReducer";
+import Demo8 from "./components/ht2";
 import './App.css';
 
 function App() {
