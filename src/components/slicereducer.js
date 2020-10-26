@@ -55,7 +55,7 @@ function Demo2() {
     <StoreContext.Provider value={store}>
       <div className="Demo2">
         <h3>Demo2</h3>
-        <Counter />
+        <Counter/>
         <br/>
         <Tlist />
       </div>
