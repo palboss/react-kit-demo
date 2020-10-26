@@ -230,6 +230,7 @@ class Demo8 extends React.Component {
   }
 
   componentDidMount() {
+
   }
 
   render() {
@@ -309,14 +310,13 @@ class Demo8 extends React.Component {
         'Date',
         'Change'
       ],
-      language: 'zh-CN',
+      language: 'en-US',
       licenseKey: "non-commercial-and-evaluation"
     };
     return (
       <div>
         <h3>Demo8</h3>
         <div>
-          <div id="hot" className="hot"/>
           <HotTable id={hotElement} data={this.data} settings={hotSettings}
           licenseKey="non-commercial-and-evaluation"/>
         </div>
