@@ -31,4 +31,4 @@ react some little kits demo
 - Handsontable is a JavaScript/HTML5 data grid component with spreadsheet look & feel.It provides easy data binding, data validation, filtering, sorting and CRUD operations.
 - [Handsontable](https://github.com/handsontable/handsontable)
 - React index.css  @import '~handsontable/dist/handsontable.full.css';
-- For flag css, index.html <link rel="stylesheet" type="text/css" href="https://handsontable.com/static/css/main.css">
+- For flag css, index.html <code><link rel="stylesheet" type="text/css" href="https://handsontable.com/static/css/main.css"></code>
