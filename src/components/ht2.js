@@ -2,7 +2,6 @@ import React from 'react';
 import { HotTable } from '@handsontable/react';
 import Handsontable from 'handsontable';
 
-
 class Demo8 extends React.Component {
   constructor(props) {
     super(props);
