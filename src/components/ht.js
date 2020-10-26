@@ -13,17 +13,19 @@ class Demo7 extends React.Component {
     ];
   }
 
+  componentDidMount() {
+  }
+
   render() {
 
     return (
       <div id="hot-app">
         <h3>Demo7</h3>
-        {/*<HotTable data={this.data} colHeaders={true} rowHeaders={true} width="300" height="200" />*/}
         <HotTable data={this.data} colHeaders={true} rowHeaders={true} width="500" height="200"
-          bindRowsWithHeaders = 'strict'
+            bindRowsWithHeaders = 'strict'
           licenseKey="non-commercial-and-evaluation"/>
         <HotTable data={this.data} colHeaders={true} rowHeaders={true} width="500" height="200"
-        licenseKey="non-commercial-and-evaluation"/>
+            licenseKey="non-commercial-and-evaluation"/>
       </div>
     );
   }
