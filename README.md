@@ -32,3 +32,10 @@ react some little kits demo
 - [Handsontable](https://github.com/handsontable/handsontable)
 - React index.css  @import '~handsontable/dist/handsontable.full.css';
 - For flag css, index.html `<link rel="stylesheet" type="text/css" href="https://handsontable.com/static/css/main.css"/>`
+### demo9 demo10 demo11 demo12 Recharts
+- Recharts is a Redefined chart library built with React and D3.
+- [Recharts](https://github.com/recharts/recharts)
+- [babel-plugin-recharts](https://github.com/recharts/babel-plugin-recharts) A babel plugin help you import less Recharts modules.
+- demo9 BarChart, demo10 PieChart, demo11 RadarChart, demo12 LegendEffectOpacity
+
+

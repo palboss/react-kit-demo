@@ -18,6 +18,10 @@ import Demo5 from "./adtimeline";
 import Demo6 from "./d3c";
 import Demo7 from "./ht";
 import Demo8 from "./ht2";
+import Demo9 from "./BarChart";
+import Demo10 from "./PieChart";
+import Demo11 from "./RadarChart";
+import Demo12 from "./Legend";
 
 const {Content, Sider } = Layout;
 
@@ -25,7 +29,7 @@ class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            comp: Demo8,
+            comp: Demo9,
         }
         this.handleclick = this.handleclick.bind(this)
     }
@@ -50,6 +54,18 @@ class Home extends Component {
                 break
             case "8":
                 comp = Demo8;
+                break
+            case "9":
+                comp = Demo9;
+                break
+            case "10":
+                comp = Demo10;
+                break
+            case "11":
+                comp = Demo11;
+                break
+            case "12":
+                comp = Demo12;
                 break
             default:
                 comp = Demo8;
@@ -89,6 +105,15 @@ class Home extends Component {
                     </Menu.Item>
                     <Menu.Item key="9" icon={<AppstoreOutlined />}>
                       Demo 9
+                    </Menu.Item>
+                    <Menu.Item key="10" icon={<UploadOutlined />}>
+                      Demo 10
+                    </Menu.Item>
+                    <Menu.Item key="11" icon={<ShopOutlined />}>
+                      Demo 11
+                    </Menu.Item>
+                    <Menu.Item key="12" icon={<CloudOutlined />}>
+                      Demo 12
                     </Menu.Item>
                   </Menu>
                 </Sider>
