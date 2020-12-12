@@ -38,7 +38,7 @@ react some little kits demo
 - [babel-plugin-recharts](https://github.com/recharts/babel-plugin-recharts) A babel plugin help you import less Recharts modules.
 - demo9 BarChart, demo10 PieChart, demo11 RadarChart, demo12 LegendEffectOpacity
 
-#### buy-me-a-coffee
+### buy-me-a-coffee
 If this warehouse can help you, welcome star. If this warehouse helps you improve your skills and find a job, you can buy me a cup of coffee：
 <p align="center"><img src="https://raw.githubusercontent.com/palboss/buy-me-a-coffee/main/buy-me-a-coffee.png" width="320" height="320" alt="" /></p>
 
